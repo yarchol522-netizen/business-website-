@@ -1,0 +1,76 @@
+
+
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+nav {
+  background: #34495e;
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  background: #2c3e50;
+}
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.home {
+  background: #3498db;
+  color: white;
+}
+.services, .about, .contact {
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.service-box {
+  display: inline-block;
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  background: #ecf0f1;
+  border-radius: 8px;
+}
+form input, form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+form button {
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #2980b9;
+}
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
